@@ -43,6 +43,7 @@ public class MineFragment extends Fragment
 {
 
     private View vv;
+
     private ImageView qq;
     private TextView denglu;
     private static final String TAG = "MainActivity";
