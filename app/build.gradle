@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '23.0.2'
+
+    defaultConfig {
+        applicationId "com.bawei.dianshang"
+        minSdkVersion 15
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.1.0'
+    compile 'com.squareup.okhttp:okhttp:2.4.0'
+    compile 'com.android.support:recyclerview-v7:25.1.0'
+    compile 'com.youth.banner:banner:1.4.9'
+    compile 'org.xutils:xutils:3.3.40'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile files('libs/universal-image-loader-1.9.3-with-sources.jar')
+    compile project(':pullToRefreshlibrary')
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+    compile files('libs/open_sdk_r5781.jar')
+    compile files('libs/xUtils-2.6.14.jar')
+    compile 'cn.yipianfengye.android:zxing-library:2.1'
+
+}

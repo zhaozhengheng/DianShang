@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="#ffff00"
+        >
+         <ImageView
+             android:layout_width="100dp"
+             android:layout_height="100dp"
+             android:src="@mipmap/qq"
+             android:id="@+id/imageView_qq"
+             android:layout_centerVertical="true"
+             android:layout_centerHorizontal="true" />
+         <TextView
+             android:id="@+id/TextView_denglu"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="登录"
+             android:textSize="30dp"
+             style="@style/AppTheme"
+             android:layout_below="@id/imageView_qq"
+             android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:id="@+id/TextView_dingdan"
+                android:layout_weight="4"
+                android:text="我的订单"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text=">"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#ccc"></View>
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:id="@+id/TextView_yaoqing"
+                android:layout_weight="4"
+                android:text="邀请有礼"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text=">"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#ccc"></View>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:id="@+id/TextView_kefu"
+                android:layout_weight="4"
+                android:text="联系客服"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text=">"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#ccc"></View>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:id="@+id/TextView_choujiang"
+                android:layout_weight="4"
+                android:text="我的抽奖单"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text=">"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="#ccc"></View>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:id="@+id/TextView_weizhi"
+                android:layout_weight="4"
+                android:text="我的位置"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text=">"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
