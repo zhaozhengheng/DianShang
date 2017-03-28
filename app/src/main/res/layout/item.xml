@@ -6,7 +6,8 @@
         android:scaleType="fitXY"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/ImageView_shouye"
+        android:src="@mipmap/guidance_1"
+        android:id="@+id/ImageView_shou"
     />
 
 </RelativeLayout>

@@ -363,7 +363,7 @@ public class ShouFragment extends Fragment {
             @Override
             public Object instantiateItem(ViewGroup container, int position) {
                 View view = View.inflate(getActivity(), R.layout.item, null);
-                ImageView shouye = (ImageView) view.findViewById(R.id.ImageView_shouye);
+                ImageView shouye = (ImageView) view.findViewById(R.id.ImageView_shou);
                 int i = position % list1.size();
                 ImageLoader.getInstance().displayImage(list1.get(i), shouye, dd);
                 container.addView(view);
