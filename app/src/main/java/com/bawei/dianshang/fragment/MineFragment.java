@@ -174,7 +174,6 @@ qq.setOnClickListener(new View.OnClickListener()
                     @Override
                     public void onCancel() {
                         Log.e(TAG,"登录取消");
-
                     }
                 });
             } catch (JSONException e) {
@@ -192,6 +191,7 @@ qq.setOnClickListener(new View.OnClickListener()
 
         @Override
         public void onCancel() {
+
             Toast.makeText(getActivity(), "授权取消", Toast.LENGTH_SHORT).show();
 
         }
